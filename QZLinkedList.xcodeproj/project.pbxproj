@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0F59A923A9076900D24DF9 /* DoubleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0F59A823A9076900D24DF9 /* DoubleLinkedList.swift */; };
+		EE0F59AB23A9F2C400D24DF9 /* LinkedListUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0F59AA23A9F2C400D24DF9 /* LinkedListUtil.swift */; };
 		EE432ABC23A31D9A00EAB70E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE432ABB23A31D9A00EAB70E /* AppDelegate.swift */; };
 		EE432ABE23A31D9A00EAB70E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE432ABD23A31D9A00EAB70E /* SceneDelegate.swift */; };
 		EE432AC023A31D9A00EAB70E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE432ABF23A31D9A00EAB70E /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		EE432AC823A31D9A00EAB70E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE432AC623A31D9A00EAB70E /* LaunchScreen.storyboard */; };
 		EE432AD323A31D9A00EAB70E /* QZLinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE432AD223A31D9A00EAB70E /* QZLinkedListTests.swift */; };
 		EE432ADE23A31D9A00EAB70E /* QZLinkedListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE432ADD23A31D9A00EAB70E /* QZLinkedListUITests.swift */; };
+		EE432AED23A31EA000EAB70E /* LinkedListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE432AEC23A31EA000EAB70E /* LinkedListProtocol.swift */; };
+		EE432AF123A3230000EAB70E /* SingleLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE432AF023A3230000EAB70E /* SingleLinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE0F59A823A9076900D24DF9 /* DoubleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleLinkedList.swift; sourceTree = "<group>"; };
+		EE0F59AA23A9F2C400D24DF9 /* LinkedListUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListUtil.swift; sourceTree = "<group>"; };
 		EE432AB823A31D9A00EAB70E /* QZLinkedList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZLinkedList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE432ABB23A31D9A00EAB70E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE432ABD23A31D9A00EAB70E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		EE432AD923A31D9A00EAB70E /* QZLinkedListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZLinkedListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE432ADD23A31D9A00EAB70E /* QZLinkedListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZLinkedListUITests.swift; sourceTree = "<group>"; };
 		EE432ADF23A31D9A00EAB70E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE432AEC23A31EA000EAB70E /* LinkedListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListProtocol.swift; sourceTree = "<group>"; };
+		EE432AF023A3230000EAB70E /* SingleLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,7 @@
 				EE432ABB23A31D9A00EAB70E /* AppDelegate.swift */,
 				EE432ABD23A31D9A00EAB70E /* SceneDelegate.swift */,
 				EE432ABF23A31D9A00EAB70E /* ViewController.swift */,
+				EE432AEB23A31E8D00EAB70E /* LinkedList */,
 				EE432AC123A31D9A00EAB70E /* Main.storyboard */,
 				EE432AC423A31D9A00EAB70E /* Assets.xcassets */,
 				EE432AC623A31D9A00EAB70E /* LaunchScreen.storyboard */,
@@ -126,6 +135,17 @@
 				EE432ADF23A31D9A00EAB70E /* Info.plist */,
 			);
 			path = QZLinkedListUITests;
+			sourceTree = "<group>";
+		};
+		EE432AEB23A31E8D00EAB70E /* LinkedList */ = {
+			isa = PBXGroup;
+			children = (
+				EE432AEC23A31EA000EAB70E /* LinkedListProtocol.swift */,
+				EE432AF023A3230000EAB70E /* SingleLinkedList.swift */,
+				EE0F59A823A9076900D24DF9 /* DoubleLinkedList.swift */,
+				EE0F59AA23A9F2C400D24DF9 /* LinkedListUtil.swift */,
+			);
+			path = LinkedList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE432AED23A31EA000EAB70E /* LinkedListProtocol.swift in Sources */,
+				EE0F59AB23A9F2C400D24DF9 /* LinkedListUtil.swift in Sources */,
+				EE0F59A923A9076900D24DF9 /* DoubleLinkedList.swift in Sources */,
 				EE432AC023A31D9A00EAB70E /* ViewController.swift in Sources */,
 				EE432ABC23A31D9A00EAB70E /* AppDelegate.swift in Sources */,
+				EE432AF123A3230000EAB70E /* SingleLinkedList.swift in Sources */,
 				EE432ABE23A31D9A00EAB70E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
